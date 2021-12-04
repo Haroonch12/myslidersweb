@@ -1,0 +1,52 @@
+#mynavbar {
+    background-color:#272822 !important;
+}
+#navbarNav {
+    justify-content: flex-end;
+}
+.carousel-item {
+    height:100vh;
+    width: 100%;
+}
+img {
+    height: 100%;
+    width: 100%;
+}
+.carousel slide{
+    height: 100%;
+}
+.your-class {
+    max-width: 1140px;
+    width: 100%;
+    margin: 40px auto;
+    padding: 0 10px;
+}
+.your-class div {
+    height: 250px;
+    margin: 0 20px;
+}
+.your-class div img {
+    height: 100%;
+    transform: scale(0.8);
+    transition: all 1s;
+}
+.your-class div img:hover {
+    transform: scale(1.1);
+    
+}
+.slick-prev:before, .slick-next:before {
+    color: black;
+    font-size: 30px;
+}
+.section {
+    padding: 0 10px;
+    overflow: hidden;
+}
+@media screen and (max-width: 1124px) {
+    .slick-prev {
+        left: -10px;
+    }
+    .slick-next {
+        right: 0;
+    }
+}
